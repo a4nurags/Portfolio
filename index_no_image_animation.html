@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anurag Sharma - Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+
+  <!-- AOS Library -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+  <style>
+    :root {
+      --primary-color: #0052cc;
+      --secondary-color: #003d99;
+      --accent-color: #fca311;
+      --text-color: #333;
+      --background-color: #f5f5f5;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+  background: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+  background-size: cover;
+  backdrop-filter: brightness(0.5) blur(2px);
+
+      background-color: var(--background-color);
+      color: var(--text-color);
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: var(--primary-color);
+    }
+
+    header p {
+      font-size: 1.1rem;
+      color: #555;
+    }
+
+    .section-title {
+      font-size: 1.6rem;
+      color: #333;
+      margin: 40px 0 20px;
+      border-bottom: 2px solid var(--primary-color);
+      display: inline-block;
+    }
+
+    .project {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      margin-bottom: 30px;
+      overflow: hidden;
+    }
+
+    .project img {
+      width: 100%;
+      display: block;
+      transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    
+
+    .project-details {
+      padding: 20px;
+    }
+
+    .project-details h2 {
+      font-size: 1.4rem;
+      color: var(--primary-color);
+      margin-bottom: 10px;
+    }
+
+    .project-details p {
+      margin-bottom: 10px;
+      color: #444;
+    }
+
+    .project-details ul {
+      padding-left: 20px;
+    }
+
+    .project-details li {
+      margin-bottom: 5px;
+    }
+
+    button {
+      background-color: var(--primary-color);
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    button:hover {
+      background-color: var(--secondary-color);
+      transform: translateY(-3px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    footer a {
+      color: var(--primary-color);
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      color: var(--accent-color);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Anurag Sharma</h1>
+    <p>Creative Graphic Designer | UI/UX | Banner & Product Visuals</p>
+  </header>
+
+  <section>
+    <h2 class="section-title">Featured Projects</h2>
+
+    <div class="project" data-aos="fade-up" data-aos-duration="800">
+      <img src="Raabta ventures n1.png" alt="Raabta Ventures Website Design" />
+      <div class="project-details">
+        <h2>Raabta Ventures Website</h2>
+        <p>Corporate construction website layout with clean sections, icons, and visual storytelling for infrastructure projects.</p>
+        <ul>
+          <li>Modern design with icons and grid-based structure</li>
+          <li>Hero banner + Service section UI</li>
+          <li>Developed in Figma</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="project" data-aos="fade-up" data-aos-duration="800">
+      <img src="Sat life Sciences WM.png" alt="Sat Life Sciences Website" />
+      <div class="project-details">
+        <h2>Sat Life Sciences Website</h2>
+        <p>Product-focused landing page with soft green branding and wellness-oriented visuals for a nutraceutical company.</p>
+        <ul>
+          <li>Custom UI elements & product showcase</li>
+          <li>Nature-inspired design and color palette</li>
+          <li>Created in Figma</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="project" data-aos="fade-up" data-aos-duration="800">
+      <img src="Macro labs PVT.LTDm.png" alt="Macro Labs Banner" />
+      <div class="project-details">
+        <h2>Macro Labs PCD Pharma Banner</h2>
+        <p>High-conversion promotional banner for a pharma franchise brand, highlighting product range and benefits.</p>
+        <ul>
+          <li>500+ product visual stack</li>
+          <li>Clear USP highlights & icons</li>
+          <li>Designed in Photoshop</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="project" data-aos="fade-up" data-aos-duration="800">
+      <img src="PCD Pharma Banner (4).png" alt="PCD Pharma Banner" />
+      <div class="project-details">
+        <h2>PCD Pharma Marketing Banner</h2>
+        <p>Corporate-style web banner with a pharmaceutical professional focus and reliable branding.</p>
+        <ul>
+          <li>Professional model imagery + confident typography</li>
+          <li>Used in web promotions</li>
+          <li>Created with Canva & Photoshop</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="project" data-aos="fade-up" data-aos-duration="800">
+      <img src="Capnotech Lifesciences (1).png" alt="Capnotech Pharma Banner 1" />
+      <div class="project-details">
+        <h2>Capnotech Franchise Promo</h2>
+        <p>Full-size PCD pharma promotional layout designed for digital advertising and print use.</p>
+        <ul>
+          <li>Strong visual hierarchy & clear information layout</li>
+          <li>GMP, ISO badge highlights</li>
+          <li>Created in Photoshop</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="project" data-aos="fade-up" data-aos-duration="800">
+      <img src="Capnotech Lifesciences (3).png" alt="Capnotech Pharma Banner 2" />
+      <div class="project-details">
+        <h2>Capnotech General Range Banner</h2>
+        <p>Color-balanced banner for pharma products promoting general range offerings.</p>
+        <ul>
+          <li>Strong CTA and clean product imagery</li>
+          <li>Designed for web and print</li>
+          <li>Created in Canva</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Thanks for viewing my portfolio! You can reach me at
+      <a href="mailto:anuragsharmaji023@gmail.com">anuragsharmaji023@gmail.com</a>
+      or connect on
+      <a href="#">LinkedIn</a>.
+    </p>
+  </footer>
+
+  <!-- AOS Library Script -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
